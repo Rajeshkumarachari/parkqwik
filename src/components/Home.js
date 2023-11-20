@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import $ from "jquery";
 
 import {
   CAR_INSURANCE,
@@ -53,7 +52,7 @@ const Home = () => {
         <p className="  px-3 py-6 text-center text-green-200 font-medium  text-lg cursor-pointer hover:text-white ">
           Careers
         </p>
-        <button className=" text-white border border-white h-12 my-3  px-10 rounded-lg  text-xl  ml-[500px] mt-4 hover:text-[#1a9e75] hover:bg-white">
+        <button className=" text-white border border-white h-12 my-3  px-10 rounded-lg  text-xl  ml-[350px] mt-4 hover:text-[#1a9e75] hover:bg-white">
           Login
         </button>
       </div>
