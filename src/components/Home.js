@@ -19,7 +19,7 @@ const Home = () => {
     setShow(!show);
   };
   return (
-    <div className=" w-80">
+    <div className=" w-100">
       <div
         id="parent"
         className=" w-full h-[86px] bg-[#1a9e75] shadow-lg flex  relative z-0"
