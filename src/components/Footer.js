@@ -12,7 +12,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className=" bg-[#1a9e75] text-white">
+    <div className=" bg-[#1a9e75] text-white w-full border border-red-800">
       <div className="my-10 flex">
         <div className=" w-1/4 my-8 py-10 mx-10 ">
           <img className=" w-40" src={HEADER_LOGO} alt="parkqwik_logo" />

@@ -3,7 +3,7 @@ import { CUSTOMER_ONE, CUSTOMER_THREE, CUSTOMER_TWO } from "../Utils/constant";
 
 const HappyCustomers = () => {
   return (
-    <div className="my-20  ">
+    <div className="my-20  w-fit   ">
       <h1 className=" text-center text-4xl font-semibold ">
         Our Happy Customers
       </h1>

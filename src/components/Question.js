@@ -26,7 +26,7 @@ const Question = () => {
   };
 
   return (
-    <div className="my-20   text-center ">
+    <div className="my-20   text-center  w-fit  ">
       <h2 className=" text-center text-4xl font-semibold">
         Frequently Asked Questions
       </h2>

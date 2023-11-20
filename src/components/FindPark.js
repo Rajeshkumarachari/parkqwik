@@ -3,7 +3,7 @@ import { INDIA_MAP, SEARCH_LOGO } from "../Utils/constant";
 
 const FindPark = () => {
   return (
-    <div className="my-20 flex">
+    <div className="my-20 flex  w-fit ">
       <div className=" w-1/2 mt-20">
         <div className="">
           <p className=" text-3xl ml-40">

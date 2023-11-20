@@ -3,7 +3,7 @@ import { APP_STORE_, GOOGLE_PLAY, PARKQWIK_APP } from "../Utils/constant";
 
 const DownloadPark = () => {
   return (
-    <div className="my-32  flex">
+    <div className="my-32  w-fit flex">
       <div className=" pl-60 w-1/2">
         <h2 className=" text-3xl font-semibold">Download ParkQwik</h2>
         <p className=" text-xl">

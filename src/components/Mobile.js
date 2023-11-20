@@ -9,7 +9,7 @@ import {
 
 const Mobile = () => {
   return (
-    <div className=" mt-40">
+    <div className=" mt-40  w-fit ">
       <div className=" flex">
         <div className="   ml-56  w-[500px]  mt-20">
           <h3 className=" font-semibold text-4xl">Parking is easy with us</h3>
