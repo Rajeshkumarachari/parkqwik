@@ -10,7 +10,7 @@ import {
 const Mobile = () => {
   return (
     <div className=" mt-40  w-fit ">
-      <div className=" flex">
+      <div className=" block md:flex">
         <div className="   ml-56  w-[500px]  mt-20">
           <h3 className=" font-semibold text-4xl">Parking is easy with us</h3>
           <p className=" mt-8 text-lg  font-normal ">
@@ -20,13 +20,13 @@ const Mobile = () => {
             and wasted time.
           </p>
         </div>
-        <div className=" ml-6 ">
+        <div className=" ml-52 md:ml-6 ">
           <img className="w-[450px] " src={MOBILE_MAP} alt="" />
         </div>
       </div>
       <div className="mt-20">
         <p className=" text-center text-4xl font-medium">How it works</p>
-        <div className="flex">
+        <div className="block md:flex">
           <div className=" mx-20   w-72">
             <img
               className=" w-24  items-center mx-24"
@@ -40,7 +40,7 @@ const Mobile = () => {
           </div>
           <div>
             <img
-              className=" my-20 w-20"
+              className=" ml-40 md:ml-0 my-24 md:my-20 w-20"
               src={ARROW_WORKING}
               alt="working arrow"
             />
@@ -59,7 +59,7 @@ const Mobile = () => {
           </div>
           <div>
             <img
-              className=" my-20 w-20"
+              className=" ml-40 md:ml-0 my-24 md:my-20 w-20"
               src={ARROW_WORKING}
               alt="working arrow"
             />

@@ -7,8 +7,8 @@ const HappyCustomers = () => {
       <h1 className=" text-center text-4xl font-semibold ">
         Our Happy Customers
       </h1>
-      <div className="flex mt-20">
-        <div className=" mx-[-40px] ">
+      <div className="block md:flex mt-20">
+        <div className=" my-20 md:my-0 mx-10 md:mx-[-40px] ">
           <img
             className=" w-[350px] h-[480px] ml-28 rounded-xl shadow-2xl opacity-90 z-0 relative"
             src={CUSTOMER_ONE}
@@ -26,7 +26,7 @@ const HappyCustomers = () => {
           </div>
         </div>
 
-        <div className=" mx-[-40px]">
+        <div className=" my-20 md:my-0 mx-10 md:mx-[-40px]">
           <img
             className=" w-[350px] h-[480px]  mx-24 rounded-xl shadow-2xl opacity-90 z-0 relative"
             src={CUSTOMER_TWO}
@@ -44,7 +44,7 @@ const HappyCustomers = () => {
           </div>
         </div>
 
-        <div className=" mx-[-40px]">
+        <div className=" my-20 md:my-0 mx-10 md:mx-[-40px]">
           <img
             className=" w-[350px] h-[480px]  mx-24 rounded-xl shadow-2xl opacity-90 z-0 relative"
             src={CUSTOMER_THREE}

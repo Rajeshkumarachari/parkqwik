@@ -27,14 +27,14 @@ const Question = () => {
 
   return (
     <div className="my-20   text-center  w-fit  ">
-      <h2 className=" text-center text-4xl font-semibold">
+      <h2 className=" text-center md:text-center text-4xl font-semibold">
         Frequently Asked Questions
       </h2>
       <div
         onClick={onChange}
-        className="flex border shadow-lg mx-96  text-center h-10 pl-1/3 my-6 cursor-pointer"
+        className="flex border shadow-lg mx-4 md:mx-96  text-center h-10 pl-1/3 my-6 cursor-pointer"
       >
-        <p className=" text-center pl-48 text-lg">
+        <p className=" text-center  pl-10 md:pl-48 text-lg">
           Can I reserve a parking spot in advance? {show ? "-" : "+"}
         </p>
       </div>
@@ -48,9 +48,9 @@ const Question = () => {
       ) : null}
       <div
         onClick={onPark}
-        className="flex border shadow-lg mx-96  text-center h-10 pl-1/3 my-6 cursor-pointer"
+        className="flex border shadow-lg mx-4 md:mx-96  text-center h-10 pl-1/3 my-6 cursor-pointer"
       >
-        <p className=" text-center pl-48 text-lg">
+        <p className=" text-center  pl-10 md:pl-48 text-lg">
           Can I cancel my parking reservation? {open ? "-" : "+"}
         </p>
       </div>
@@ -65,9 +65,9 @@ const Question = () => {
       ) : null}
       <div
         onClick={advance}
-        className="flex border shadow-lg mx-96 text-center h-10 pl-1/3 my-6 cursor-pointer"
+        className="flex border shadow-lg mx-4 md:mx-96 text-center h-10 pl-1/3 my-6 cursor-pointer"
       >
-        <p className=" text-center pl-48 text-lg">
+        <p className=" text-center  pl-10 md:pl-48 text-lg">
           Does ParkQwik operate in multiple cities? {close ? "-" : "+"}
         </p>
       </div>
@@ -80,9 +80,9 @@ const Question = () => {
       ) : null}
       <div
         onClick={mass}
-        className="flex border shadow-lg mx-96 text-center h-10 pl-1/3 my-6 cursor-pointer"
+        className="flex border shadow-lg mx-4 md:mx-96 text-center h-10 pl-1/3 my-6 cursor-pointer"
       >
-        <p className=" text-center pl-48 text-lg">
+        <p className=" text-center  pl-10 md:pl-48 text-lg">
           How can I extend my parking reservation ? {make ? "-" : "+"}
         </p>
       </div>
@@ -97,9 +97,9 @@ const Question = () => {
 
       <div
         onClick={shadow}
-        className="flex border shadow-lg mx-96  text-center h-10 pl-1/3 my-6 cursor-pointer"
+        className="flex border shadow-lg  mx-4 md:mx-96  text-center h-10 pl-1/3 my-6 cursor-pointer"
       >
-        <p className=" text-center pl-48 text-lg">
+        <p className=" text-center pl-10 md:pl-48 text-lg">
           Do you offer valet parking service? {poll ? "-" : "+"}
         </p>
       </div>
