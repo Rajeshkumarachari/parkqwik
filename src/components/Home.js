@@ -29,18 +29,18 @@ const Home = () => {
           src={HEADER_LOGO}
           alt="LOGO"
         />
-        <p className=" hidden md:block pl-12 px-3 py-6 text-center  text-green-200 font-medium  text-lg cursor-pointer  hover:text-white">
+        <p className=" hidden sm:block pl-12 px-3 py-6 text-center  text-green-200 font-medium  text-lg cursor-pointer  hover:text-white">
           About Us
         </p>
-        <p className=" hidden md:block px-3 py-6 text-center text-green-200 font-medium  text-lg cursor-pointer  hover:text-white">
+        <p className=" hidden sm:block px-3 py-6 text-center text-green-200 font-medium  text-lg cursor-pointer  hover:text-white">
           Parking
         </p>
-        <p className="hidden md:block  px-3 py-6 text-center text-green-200 font-medium  text-lg cursor-pointer  hover:text-white">
+        <p className="hidden sm:block  px-3 py-6 text-center text-green-200 font-medium  text-lg cursor-pointer  hover:text-white">
           Fastag
         </p>
         <p
           onClick={changeState}
-          className="hidden md:block   px-3 py-6 text-center text-green-200 font-medium  text-lg cursor-pointer  hover:text-white"
+          className="hidden sm:block   px-3 py-6 text-center text-green-200 font-medium  text-lg cursor-pointer  hover:text-white"
         >
           Products
           <img
@@ -49,7 +49,7 @@ const Home = () => {
             alt="down_arrow"
           />
         </p>
-        <p className="hidden md:block  px-3 py-6 text-center text-green-200 font-medium  text-lg cursor-pointer hover:text-white ">
+        <p className="hidden sm:block  px-3 py-6 text-center text-green-200 font-medium  text-lg cursor-pointer hover:text-white ">
           Careers
         </p>
         <button className=" text-white border border-white h-12 my-3  px-10 rounded-lg  text-xl  ml-[350px] mt-4 hover:text-[#1a9e75] hover:bg-white">
@@ -65,7 +65,7 @@ const Home = () => {
         </div>
       ) : null}
 
-      <div className="bloc md:flex z-0 ">
+      <div className="bloc sm:flex z-0 ">
         <div className=" ml-40 mt-28  w-[1000px]">
           <h1 className=" text-3xl font-semibold">
             Simplify Your Car <br /> Experience with ParkQwik

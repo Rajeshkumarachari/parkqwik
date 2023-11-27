@@ -8,7 +8,7 @@ import Question from "./components/Question";
 
 function App() {
   return (
-    <div className="">
+    <div className=" w-fit">
       <Home />
       <Mobile />
       <FindPark />
